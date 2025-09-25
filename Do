@@ -18,5 +18,3 @@ Just signed up here in order to alert you of an issue/consequence of this workar
 Other resources say CAudioLimiter can be disabled by the following registry edit:
 In HKEY_CLASSES_ROOT\AudioEngine\AudioProcessingObjects\{D69E0717-DD4B-4B25-997A-DA813833B8AC}, replace the value of APOInterface0 with {00000000-0000-0000-0000-000000000000}.
 I haven't properly tested if this actually works (i.e., if it effectively removes CAudioLimiter), but at least audio capturing still works afterwards.
-
-https://bjtaudio.com/winlimiter.htm (if you dont get how to disable CAudioLimiter)
